@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #e6e5e5;
+}
+
+.logo {
+  height: 100px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.logo-png {
+  width: 50px;
+  vertical-align: middle;
+}
+
+h1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  font-size: 40px;
+
+}
+
+.container {
+  width: 70%;
+  background-color: white;
+  margin:auto;
+  border-radius: 5px;
+}
+
+.key{
+  height: 70px;
+  line-height: 70px;
+  padding-left: 50px;
+  border-bottom: 2px solid #f1f1f1;
+
+}
+
+.button{
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 18px;
+  }
+
+.task{
+  background-color: #8ec6ff;
+  color: white;
+  border-radius: 10px;
+}
+
+.section {
+  background-color: white;
+  border: 1px solid lightgrey;
+  color: lightgrey;
+  border-radius: 10px;
+}
+
+.content {
+  padding: 40px;
+}
+
+ul{
+  list-style: none;
+}
+
+li h3::before{
+  content: "\25BC     ";
+  font-size: 15px;
+}
+
+li h3{
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+li{
+  font-size: 20px;
+  margin: 17px;
+}
+
+.check::before , .cross::before{
+  border-radius: 200%;
+  padding: 3px;
+  margin-right: 10px;
+  font-size: 13px;
+
+}
+
+.check::before{
+  content: "\2713";
+  border: 1px solid #88cca0;
+  color: #88cca0;
+}
+
+.cross::before{
+  content: "X";
+  border: 1px solid #e24040;
+  color: #e24040;
+}
+
+.circle {
+  color: white;
+  font-size: 11px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.blue{
+  background-color: #9fc5ec;
+}
+
+.purple {
+  background-color: #945dc7;
+}
+.green{
+  background-color: #468a67;
+}
+.orange{
+  background-color: #e0733d;
+}
+.fucsia{
+  background-color: #af447f;
+}
+.lightgreen {
+  background-color: #b1de8c;
+}
+
+.footer {
+  width: 70%;
+  background-color: white;
+  margin:auto;
+  border-radius: 5px;
+  margin-top: 2px;
+  padding: 20px;
+}
+
+.mail{
+  border-style: groove;
+  border-width: medium;
+  border-color: lightblue;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+ .submit{
+   border-style: groove;
+   border-width: medium;
+   border-color: lightblue;
+ }
